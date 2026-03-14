@@ -1,0 +1,182 @@
+@media (max-width:1300px) {
+    .container {
+        width: 90%;
+    }
+
+    .project-card-section {
+        grid-template-columns: repeat(2, 40%);
+    }
+}
+
+.services-section h2 {
+    text-align: center;
+}
+
+.project-section h1 {
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    nav .menu-icon {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        flex-direction: column;
+        width: 250px;
+        height: 100vh;
+        gap: 0px;
+        background-color: var(--primary-color);
+        transition: 1s;
+    }
+
+    nav ul li {
+        text-align: left;
+        padding: 20px;
+    }
+
+    nav ul li a {
+        color: var(--section-bg);
+        font-weight: 400;
+
+    }
+
+    nav ul i {
+        display: block;
+        color: black;
+    }
+
+    nav ul .close-icon {
+        padding: 5px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .hero-left {
+        width: 100%;
+    }
+
+    .hero-left p {
+        margin-inline: auto;
+    }
+
+    .text-content {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .left-text-content {
+        width: 100%;
+    }
+
+    .skills-part {
+        width: 100%;
+    }
+
+    .skills {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .skills-part h2 {
+        text-align: center;
+    }
+
+    .services-cards-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .services-cards-section .service-card {
+        width: 80%;
+        text-align: center;
+    }
+
+    .project-card-section {
+        grid-template-columns: repeat(1, 80%);
+    }
+        .contact-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .contact-left {
+            text-align: center;
+        }
+
+        .contact-desc {
+            margin-inline: auto;
+            max-width: 700px;
+        }
+
+        .info-item {
+            justify-content: center;
+        }
+
+        .social-row {
+            justify-content: center;
+        }
+
+        .contact-section {
+            padding: 48px 28px;
+        }
+
+        .contact-grid {
+            grid-template-columns: 1fr;
+            gap: 48px;
+        }
+
+        .divider-v {
+            display: none;
+        }
+
+        .contact-desc {
+            max-width: 100%;
+        }
+    }
+
+
+@media (max-width:500px) {
+    .container {
+        width: 95%;
+    }
+
+    .services-cards-section .service-card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .project-card-section {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .project-section {
+        padding: 10px;
+    }
+
+    .hero-right {
+        width: 300px;
+        height: 300px;
+    }
+
+    .right-imge-content {
+        width: 300px;
+        height: 300px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .btn-submit {
+        align-self: stretch;
+    }
+}
